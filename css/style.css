@@ -124,3 +124,16 @@ h1 {
     font: 700 1.31rem var(--font);
     color: var(--title-color);
 }
+
+nav ul li {
+    text-align: center;
+}
+
+nav ul li a {
+    position: relative;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: var(--base-color); 
+}
