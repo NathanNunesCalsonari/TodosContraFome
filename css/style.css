@@ -61,3 +61,31 @@ h1 {
     font: 700 var(--title-font-size) var(--font);
     color: var(--title-color);
 }
+
+.titulo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+
+.container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    justify-content: space-between;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
+.grid {
+
+    display: inline-block;
+  
+    gap: 2rem;
+    
+    
+}
