@@ -27,4 +27,76 @@
             </div>
         </nav>
     </header>
+
+    <main>
+        <section class="section" >
+            <div class="container grid">
+              <div class="text">
+                <h2 class="title">DOANDO AMOR</h2>
+   
+                <h1>Todos contra a fome</h1>
+                <img src="./img/doacao3.jpg" alt="" > 
+   
+                
+                <p>O projeto "Todos contra a fome" surgiu diante de um momento complicado que vivemos na pandemia, onde diversas pessoas em situação de rua não tinham o que comer. Portanto, a ORG desenvolveu esta aplicação com intuito de facilitar os processos de doação pelo mundo. Basta a pessoa se cadastrar, agendar e retirar a cesta básica! </p>
+        
+                <h1>Nossa ideia</h1>
+                <img src="./img/doacao1.jpg" alt="">
+                <p>Nós visamos atingir o máximo de pessoas necessitadas possíveis, pois este número está aumentando exponencialmente nos últimos anos em nossa sociedade. E se há recurso no mundo para todos, mas existem indivíduos que passam fome, há algo de errado! Ajude-nos acessando nosso site e acessando nossas redes sociais localizadas na parte inferior da página</p>
+      
+                <h1>Cadastre-se</h1>
+                <img src="./img/doacao4" alt="" >
+                <p>A fome é um problema mundial, e nós estamos aqui para combatê-la. Faça seu cadastro!</p>
+
+                <h2 class="tit">CADASTRO</h2>
+        
+                <form action="./index.html" method="post">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="usuario_nome" />
+                    </div>
+                    <div>
+                        <label for="nome">Idade:</label>
+                        <input type="number" id="idade" name="usuario_idade" />
+                    </div>
+                    <div>
+                        <label for="nome">E-mail:</label>
+                        <input type="email" id="email" name="usuario_email" />
+                    </div>
+                    <div>
+                        <label for="nome">CPF:</label>
+                        <input type="number" id="cpf" name="usuario_cpf" />
+                    </div>
+                   
+                    <div>
+                        <label for="nome">CEP:</label>
+                        <input type="number" id="cep" name="usuario_cep" />
+                    </div>
+                    <div>
+                        <label for="nome">Telefone:</label>
+                        <input type="number" id="telefone" name="usuario_telefone" />
+                    </div>
+                    <div>
+                        <label for="nome">Data de retiro</label>
+                        <input type="date" id="data" name="usuario_data" />
+                    </div>
+                    
+                
+                    <div class="button">
+                        <input type="reset" value="Cadastrar" onclick="msg()">
+                    </div>
+                   
+                </form>
+                <script>
+                    function msg() {
+                      alert("Retire sua cesta básica no local que enviaremos em seu email!");
+                      
+                    }
+                    </script>
+                    
+              </div>
+            </div>
+          </section>
+    </main>
+
 </body>
