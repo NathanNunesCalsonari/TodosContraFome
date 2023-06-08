@@ -27,4 +27,73 @@
             </div>
         </nav>
     </header>
+
+    <main>
+        <section class="section">
+            <div class="container grid">
+                <div class="text">
+                    <h2 class="title">Contato</h2>
+                    
+                    <form id = "form" action= ./index.html method="post">
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="usuario_nome" />
+                        </div>
+                        <div>
+                            <label for="nome">Data Nascimento:</label>
+                            <input type="date" id="data" name="usuario_data" />
+                        </div>
+                        <div>
+                            <label for="nome">E-mail:</label>
+                            <input type="email" id="email" name="usuario_email" />
+                        </div>
+                        <div>
+                            <label for="nome">CPF:</label>
+                            <input type="text" id="cpf" name="usuario_cpf" />
+                        </div>
+                        <div>
+                            <label for="nome">Endereço:</label>
+                            <input type="text" id="endereço" name="usuario_endereço" />
+                        </div>
+                        <div>
+                            <label for="nome">Bairro:</label>
+                            <input type="text" id="bairro" name="usuario_bairro" />
+                        </div>
+                        <div>
+                            <label for="nome">Estado:</label>
+                            <input type="text" id="estado" name="usuario_estado" />
+                        </div>
+                        <div>
+                            <label for="nome">País:</label>
+                            <input type="text" id="país" name="usuario_país" />
+                        </div>
+                        <div>
+                            <label for="nome">Telefone:</label>
+                            <input type="number" id="telefone" name="usuario_telefone" />
+                        </div>
+                       
+                        <div>
+                            <label for="msg">Mensagem:</label>
+                            <textarea id="msg" name="usuario_msg"></textarea>
+                        </div>
+                    
+                        <div class="button">
+                            <input type="reset" value="Enviar mensagem" onclick="msgg()">
+                        </div>
+                       
+                    </form>
+                    
+                </div>
+
+                <div>
+                    <h2 class="insta">Para maiores dúvidas, contate-nos em nosso Instagram!</h2>
+                    
+                    <img src="./img/qrcode3.png" alt="instagram" >
+                        
+                <p>Aponte a câmera do seu dispositivo para o QR Code</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
