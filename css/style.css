@@ -137,3 +137,56 @@ nav ul li a:hover,
 nav ul li a.active {
     color: var(--base-color); 
 }
+
+@media screen and (min-width: 500px) and (max-width: 2000px) {
+
+    .container {
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section {
+        padding: 10rem 0;
+    }
+
+    .section header,
+    header {
+        max-width: 200rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav .menu {
+        opacity: 1;
+        visibility: visible;
+        top: 0;
+        
+    }
+
+    nav .menu ul {
+        display: flex;
+        gap: 2rem;
+    }
+
+    nav .menu ul li a.title {
+        font: 400 1rem var(--font);
+    }
+
+    nav .menu ul li a.title.active {
+        font-weight: bold;
+    }
+
+    main {
+        margin-top: var(--header-height);
+    }
+   
+    .h2 {
+        max-width: 200rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
