@@ -20,6 +20,8 @@ img {
 
 }
 
+
+
 :root {
     --header-height: 4.5rem;
 
@@ -125,6 +127,14 @@ h1 {
     color: var(--title-color);
 }
 
+nav {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 nav ul li {
     text-align: center;
 }
@@ -191,6 +201,8 @@ nav ul li a.active {
     
 }
 
+
+
 /* Estilo geral do formulário */
 form {
     max-width: 400px;
@@ -220,7 +232,7 @@ form {
     box-sizing: border-box;
     margin-bottom: 10px;
 }
-
+  
   /* Estilo dos botões */
   button {
     background-color: #4CAF50;
@@ -300,3 +312,5 @@ form {
     text-align: left;   
 
 }
+
+
