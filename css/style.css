@@ -106,3 +106,21 @@ h1 {
 .section header {
     margin-bottom: 4rem;
 }
+
+#header {
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 2rem;
+    display: flex;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: var(--body-color);
+    width: 100%;
+}
+
+.logo {
+    font: 700 1.31rem var(--font);
+    color: var(--title-color);
+}
