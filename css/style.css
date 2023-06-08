@@ -89,3 +89,20 @@ h1 {
     
     
 }
+
+.section {
+    padding: 9.5rem 0;
+}
+
+.section .title {
+    display: inline-block;
+    margin-bottom: 0.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: left;
+    
+}
+
+.section header {
+    margin-bottom: 4rem;
+}
