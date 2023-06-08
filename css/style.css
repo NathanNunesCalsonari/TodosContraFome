@@ -19,3 +19,24 @@ img {
     height: auto;
 
 }
+
+:root {
+    --header-height: 4.5rem;
+
+    /* colors */
+    --hue: 552;
+    /* HSL color mode */
+    --base-color: hsl(var(--hue) 36% 57%);
+    --base-color-second: hsl(var(--hue) 65% 88%);
+    --base-color-alt: hsl(var(--hue) 57% 53%);
+    --title-color: white;
+    --text-color: hsl(0, 0%, 0%);
+    --text-color-light: hsl(0, 0%, 1%);
+    --body-color: hsl(19, 39%, 62%);    
+    --text-align: center;
+
+    /* fonts */
+    --title-font-size: 1.875rem;
+    --subtitle-font-size: 1rem;
+    --font: sans-serif;
+}
